@@ -1,0 +1,121 @@
+
+* {
+    font-family: Arial;
+    color: #ffff;
+}
+
+div {
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: #2A322F;
+}
+
+.conteiner {
+    max-width: 990px;
+    width: 100%;
+    height: auto;
+    background-color: #111750;
+    border-radius: 2em;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+
+
+p,h3,h2,a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 7em;
+
+
+}
+
+
+
+a{
+    color: black;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 2em;
+    padding: 0;
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+h1{
+    font-size: 4em;
+}
+
+
+.contact {
+    width: auto;
+}
+
+img {
+    border-radius: 2em;
+    width: 206.75px;
+    height: 265.75px;
+
+}
+
+
+.data{
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: column;
+
+}
+
+.contact_number,.adres{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+}
+.item{
+    padding-right: 1em;
+
+}
+
+/* Education */
+.education,.experience,.achievements,.additional_skills,.hobbies{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.school{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Experience */
+/* Achievements */
+/* Additional Skills*/
+/*Hobbies*/
