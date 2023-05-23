@@ -1,120 +1,121 @@
-
-* {
-    font-family: Arial;
-    color: #ffff;
+:root{
+    --first-color:#000000;
+    --second-color:#ffffff;
 }
 
-div {
 
+* {
+    color: var(--first-color);
+    padding: 0;
+    margin: 0;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 2em;
+    color: var(--second-color);
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: auto;
     background-color: #2A322F;
 }
 
 .conteiner {
     max-width: 990px;
     width: 100%;
-    height: auto;
-    background-color: #111750;
+    font-family: Arial;
+    padding-bottom: 2em;
+    background-color: var(--second-color);
     border-radius: 2em;
-    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border: 5px solid var(--first-color);
 }
 
 
-
-p,h3,h2,a {
+p, h3, h2, a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
     position: relative;
     left: 7em;
-
-
 }
 
+.education, .experience, .achievements, .additional_skills, .hobbies, .school, .data {
+    display: flex;
+    flex-direction: column;
+}
 
-
-a{
-    color: black;
-    background-color: white;
-    width: auto;
-    height: auto;
-    border-radius: 2em;
-    padding: 0;
+li, h2, h3, p {
+    padding-top: 0.3em;
 }
 
 
 /* header */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding-top: 2em;
 }
 
-h1{
+.info {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: var(--first-color);
+}
+
+h1 {
     font-size: 4em;
+    color: var(--second-color);
 }
 
-
-.contact {
-    width: auto;
-}
 
 img {
     border-radius: 2em;
     width: 206.75px;
     height: 265.75px;
-
 }
 
-
-.data{
-    display: flex;
-    justify-content:space-between ;
-    flex-direction: column;
-
+.data {
+    justify-content: space-between;
 }
 
-.contact_number,.adres{
+.contact_number, .adres, .portfolio {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-
-
+    justify-content: center;
+    align-items: center;
 }
-.item{
-    padding-right: 1em;
 
+.item {
+    margin: 1em;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    border-radius: 2em;
+    padding: 0.5em;
+    text-decoration: none;
 }
+
+a {
+    color: var(--second-color);
+    background-color: var(--first-color);
+    border-radius: 2em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
 
 /* Education */
-.education,.experience,.achievements,.additional_skills,.hobbies{
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.school{
-    display: flex;
-    flex-direction: column;
-
-}
-
 /* Experience */
 /* Achievements */
 /* Additional Skills*/
